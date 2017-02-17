@@ -8,5 +8,5 @@
 #### Clone or Download to desktop and use as needed.
 ## Techonolgies Used:
 #### HTML, CSS, JS, Bootstrap, jQuery and FontAwesome.
-### License:
+## License:
 #### Copyright (c) 2017 Keith Stedman. This is a MIT license.

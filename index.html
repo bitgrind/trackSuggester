@@ -11,44 +11,67 @@
   <body class="container">
     <main class="">
       <div class="questions">
-        <h1>questions</h1>
+        <h1>Epicodus Questionnaire</h1>
         <div>
           <form>
             <div class="question">
               <h2>Which do you Prefer?</h2>
-              <select>
-                <option value="style">Style?</option>
-                <option value="structure">Structure?</option>
-              </select>
+              <div>
+                <label for="style">Style</label>
+                <input id="style" value="style" type="radio">
+              </div>
+              <div>
+                <label for="structure">Structure</label>
+                <input id="structure" value="structure" type="radio">
+              </div>
             </div>
             <div class="question">
               <h2>Which do you Prefer?</h2>
-                <select>
-                  <option value="open">Open Source?</option>
-                  <option value="closed">Closed Source?</option>
-                </select>
+              <div>
+                <label for="opensource">Open Source</label>
+                <input id="opensource" value="opensource" type="radio">
+              </div>
+              <div>
+                <label for="closedsource">Closed Source</label>
+                <input id="closedsource" value="closedsource" type="radio">
+              </div>
             </div>
             <div class="question">
-              <h2>What kind of company do you want to work for</h2>
-                <select>
-                  <option value="style">Small Business?</option>
-                  <option value="structure">Large Enterprise?</option>
-                </select>
+              <h2>What kind of company do you want to work for?</h2>
+              <div>
+                <label for="smbusiness">Small Business</label>
+                <input id="smbusiness" value="smbusiness" type="radio">
+              </div>
+              <div>
+                <label for="lrgbusiness">Large Enterprise</label>
+                <input id="lrgbusiness" value="lrgbusiness" type="radio">
+              </div>
             </div>
             <div class="question">
-              <h2>What kind of company do you want to work for</h2>
-              <select>
-                <option value="style">Mobile Development?</option>
-                <option value="structure">Server Development</option>
-              </select>
+              <h2>What kind of platform do you want to develop for?</h2>
+              <div>
+                <label for="mobiledev">Mobile Development</label>
+                <input id="mobiledev" value="mobiledev" type="radio">
+              </div>
+              <div>
+                <label for="serverdev">Server Development</label>
+                <input id="serverdev" value="serverdev" type="radio">
+              </div>
             </div>
             <div class="question">
               <h2>Whats Your idea of a starting salary?</h2>
-                <select>
-                  <option value="35k">$35,000</option>
-                  <option value="40k">$40,000</option>
-                  <option value="45k">$45,000</option>
-                </select>
+              <div>
+                <label for="salary-35k">$35,000</label>
+                <input id="salary-35k" value="35k" type="radio">
+              </div>
+              <div>
+                <label for="salary-40k">$40,000</label>
+                <input id="salary-40k" value="40k" type="radio">
+              </div>
+              <div>
+                <label for="salary-45k">$45,000</label>
+                <input id="salary-45k" value="45k" type="radio">
+              </div>
             </div>
           </form>
         </div>
