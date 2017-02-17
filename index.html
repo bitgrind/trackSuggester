@@ -8,74 +8,93 @@
     <script src="js/scripts.js"></script>
     <title>Epicodus Track Suggester</title>
   </head>
-  <body class="container">
-    <main class="">
-      <div class="questions">
+  <body>
+    <main class="container">
+      <div id="questions">
         <h1>Epicodus Questionnaire</h1>
-        <div>
+        <div class="row">
           <form>
-            <div class="question">
-              <h2>Which do you Prefer?</h2>
-              <div>
-                <label for="style">Style</label>
-                <input id="style" value="style" type="radio">
-              </div>
-              <div>
-                <label for="structure">Structure</label>
-                <input id="structure" value="structure" type="radio">
-              </div>
-            </div>
-            <div class="question">
-              <h2>Which do you Prefer?</h2>
-              <div>
-                <label for="opensource">Open Source</label>
-                <input id="opensource" value="opensource" type="radio">
-              </div>
-              <div>
-                <label for="closedsource">Closed Source</label>
-                <input id="closedsource" value="closedsource" type="radio">
+            <div class="question col-md-6">
+              <h2>Which do you Prefer:</h2>
+              <div class="row">
+                <div class="col-md-12">
+                  <label for="style">Design?</label>
+                  <input id="style" value="style" type="radio">
+                  <img src="img/design.png">
+                </div>
+                <div class="col-md-12">
+                  <label for="structure">Structure?</label>
+                  <input id="structure" value="structure" type="radio">
+                </div>
               </div>
             </div>
-            <div class="question">
+            <div class="question col-md-6">
+              <h2>Which do you Prefer?</h2>
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="opensource">Open Source</label>
+                  <input id="opensource" value="opensource" type="radio">
+                </div>
+                <div class="col-md-6">
+                  <label for="closedsource">Closed Source</label>
+                  <input id="closedsource" value="closedsource" type="radio">
+                </div>
+              </div>
+            </div>
+            <div class="question col-md-6">
               <h2>What kind of company do you want to work for?</h2>
-              <div>
-                <label for="smbusiness">Small Business</label>
-                <input id="smbusiness" value="smbusiness" type="radio">
-              </div>
-              <div>
-                <label for="lrgbusiness">Large Enterprise</label>
-                <input id="lrgbusiness" value="lrgbusiness" type="radio">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="smbusiness">Small Business</label>
+                  <input id="smbusiness" value="smbusiness" type="radio">
+                </div>
+                <div class="col-md-6">
+                  <label for="lrgbusiness">Large Enterprise</label>
+                  <input id="lrgbusiness" value="lrgbusiness" type="radio">
+                </div>
               </div>
             </div>
-            <div class="question">
+            <div class="question col-md-6">
               <h2>What kind of platform do you want to develop for?</h2>
               <div>
-                <label for="mobiledev">Mobile Development</label>
-                <input id="mobiledev" value="mobiledev" type="radio">
-              </div>
-              <div>
-                <label for="serverdev">Server Development</label>
-                <input id="serverdev" value="serverdev" type="radio">
+                <div class="col-md-6">
+                  <label for="mobiledev">Mobile Development</label>
+                  <input id="mobiledev" value="mobiledev" type="radio">
+                </div>
+                <div class="col-md-6">
+                  <label for="serverdev">Server Development</label>
+                  <input id="serverdev" value="serverdev" type="radio">
+                </div>
               </div>
             </div>
-            <div class="question">
+            <div class="question col-md-6">
               <h2>Whats Your idea of a starting salary?</h2>
-              <div>
-                <label for="salary-35k">$35,000</label>
-                <input id="salary-35k" value="35k" type="radio">
-              </div>
-              <div>
-                <label for="salary-40k">$40,000</label>
-                <input id="salary-40k" value="40k" type="radio">
-              </div>
-              <div>
-                <label for="salary-45k">$45,000</label>
-                <input id="salary-45k" value="45k" type="radio">
+              <div class="row">
+                <div class="col-md-12">
+                  <label for="salary-35k">$35,000</label>
+                  <input id="salary-35k" value="35k" type="radio">
+                </div>
+                <div class="col-md-12">
+                  <label for="salary-40k">$40,000</label>
+                  <input id="salary-40k" value="40k" type="radio">
+                </div>
+                <div class="col-md-12">
+                  <label for="salary-45k">$45,000</label>
+                  <input id="salary-45k" value="45k" type="radio">
+                </div>
               </div>
             </div>
           </form>
+          <div>
+            <div id="track" class="">
+              <h1>These Program Tracks Are Based on Your interets</h1>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <footer>
+
+    </footer>
   </body>
 </html>
