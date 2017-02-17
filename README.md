@@ -1,8 +1,8 @@
 # Epicodus Track Picker v1.0
-## Discription
+## Description
 #### Purpose: A short survey to gauge what areas a student might persist due to interests
-#### This is a small questionnaire that asks about the prospect student and suggests different types of programing languages for that student to take.
-### Author Keith Stedman
+#### Description this is a small questionnaire that asks about the prospect student and suggests different types of programing languages for that student to take.
+## Author Keith Stedman
 #### Purpose: Gauge interest in different types of programing languages and aspects to find a proper path for success.
 ## Install
 #### Clone or Download to desktop and use as needed.
