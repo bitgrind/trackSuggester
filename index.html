@@ -11,83 +11,96 @@
   <body>
     <main class="container">
       <div id="questions">
-        <h1>Epicodus Questionnaire</h1>
+        <h1>Epicodus Track Finder</h1>
         <div class="row">
-          <form>
-            <div class="question col-md-6">
+            <div id="styleQ" class="question col-md-6">
               <h2>Which do you Prefer:</h2>
               <div class="row">
                 <div class="col-md-12">
-                  <label for="style">Design?</label>
+                  <label for="style"><h3>Design?</h3></label>
                   <input id="style" value="style" type="radio">
                   <img src="img/design.png">
                 </div>
+                <span class="">OR</span>
                 <div class="col-md-12">
-                  <label for="structure">Structure?</label>
+                  <label for="structure"><h3>Structure?</h3></label>
                   <input id="structure" value="structure" type="radio">
+                  <img src="img/structure.jpg">
                 </div>
               </div>
             </div>
-            <div class="question col-md-6">
+            <div id="opensourceQ" class="question col-md-6">
               <h2>Which do you Prefer?</h2>
               <div class="row">
-                <div class="col-md-6">
-                  <label for="opensource">Open Source</label>
+                <div class="col-md-12">
+                  <label for="opensource"><h3>Open Source</h3></label>
                   <input id="opensource" value="opensource" type="radio">
+                  <img src="img/opensource1.png">
+                  <img src="img/opensource2.jpg">
                 </div>
-                <div class="col-md-6">
-                  <label for="closedsource">Closed Source</label>
+                <span class="">OR</span>
+                <div class="col-md-12">
+                  <label for="closedsource"><h3>Closed Source</h3></label>
                   <input id="closedsource" value="closedsource" type="radio">
+                  <img src="img/closedsource.png">
+                  <img src="img/apple.png">
                 </div>
               </div>
             </div>
-            <div class="question col-md-6">
+            <div id="businessQ" class="question col-md-6">
               <h2>What kind of company do you want to work for?</h2>
               <div class="row">
-                <div class="col-md-6">
-                  <label for="smbusiness">Small Business</label>
+                <div class="col-md-12">
+                  <label for="smbusiness"><h3>Small Business</h3></label>
                   <input id="smbusiness" value="smbusiness" type="radio">
+                  <img src="img/smallbusiness.jpg">
                 </div>
-                <div class="col-md-6">
-                  <label for="lrgbusiness">Large Enterprise</label>
+                <span class="">OR</span>
+                <div class="col-md-12">
+                  <label for="lrgbusiness"><h3>Large Enterprise</h3></label>
                   <input id="lrgbusiness" value="lrgbusiness" type="radio">
+                  <img src="img/lgbusiness.jpg">
                 </div>
               </div>
             </div>
-            <div class="question col-md-6">
+            <div id="mobiledevQ" class="question col-md-6">
               <h2>What kind of platform do you want to develop for?</h2>
               <div>
-                <div class="col-md-6">
-                  <label for="mobiledev">Mobile Development</label>
+                <div class="col-md-12">
+                  <label for="mobiledev"><h3>Mobile Development</h3></label>
                   <input id="mobiledev" value="mobiledev" type="radio">
+                  <img src="img/mobile.png">
                 </div>
-                <div class="col-md-6">
-                  <label for="serverdev">Server Development</label>
+                <span class="">OR</span>
+                <div class="col-md-12">
+                  <label for="serverdev"><h3>Server Development</h3></label>
                   <input id="serverdev" value="serverdev" type="radio">
+                  <img src="img/server.png">
                 </div>
               </div>
             </div>
-            <div class="question col-md-6">
+            <div id="salaryQ" class="question col-md-6">
               <h2>Whats Your idea of a starting salary?</h2>
               <div class="row">
                 <div class="col-md-12">
-                  <label for="salary-35k">$35,000</label>
+                  <label for="salary-35k"><h2>$35,000</h2></label>
                   <input id="salary-35k" value="35k" type="radio">
                 </div>
+                <span class="salary">OR</span>
                 <div class="col-md-12">
-                  <label for="salary-40k">$40,000</label>
+                  <label for="salary-40k"><h2>$40,000</h2></label>
                   <input id="salary-40k" value="40k" type="radio">
                 </div>
+                <span class="salary">OR</span>
                 <div class="col-md-12">
-                  <label for="salary-45k">$45,000</label>
+                  <label for="salary-45k"><h2>$45,000</h2></label>
                   <input id="salary-45k" value="45k" type="radio">
                 </div>
               </div>
             </div>
-          </form>
           <div>
             <div id="track" class="">
-              <h1>These Program Tracks Are Based on Your interets</h1>
+              <h1>Program Tracks Ranked Based on Your Answers:</h1>
             </div>
           </div>
         </div>
